@@ -1,0 +1,99 @@
+<!--Isaac Calderon 11 April 2018-->
+<html>
+    <head>
+      
+      <title>home page</title>  
+        
+        <style>
+            body{        
+            background-image: url("http://wallpapers.ae/wp-content/uploads/2014/09/Wonderful-Rain-Background-Wallpaper.jpeg");   
+            }
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1{
+text-align:center;
+color:;
+}
+        
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}            
+            img{
+            width:350;
+            height:250;
+            } 
+        </style>
+    
+    </head>
+    
+        <body>            
+            <h1>Home Page</h1>
+<ul>
+  <li><a class="active" href="externalfile:drive-60155ec5441d4fc8c449a194eff0de0ade0773c3/root/programming_html_css_javascript/index1-2.html">about</a></li>
+  <li><a class="active" href="">News</a></li>
+  <li><a class="active" href="externalfile:drive-bcdd1cc0064bc543c4a6e995ca8bb2467321c1b3/root/programming_html_css_javascript/contact.html">Contact</a></li>
+  <li><a class="active" href="externalfile:drive-3d0d149b9d854478e6f4612eb7dbb687ce797f51/root/programming_html_css_javascript/index.html">home</a></li>
+</ul>            
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+    
+   <img src="https://images2.alphacoders.com/722/thumb-1920-72270.jpg">
+    <img src="https://i.pinimg.com/originals/a8/d3/a3/a8d3a3bf68007ab6ce6ecb9aa8962992.jpg">
+        </body>
+</html>
