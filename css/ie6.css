@@ -1,0 +1,25 @@
+/*#illustration img {
+	width:800px !important;
+	height:230px !important;
+}
+ul.articles li a img {
+	width:350px !important;
+	height:100px !important;
+}
+img#mjt {
+	width:420px !important;
+	height:240px !important;
+} */
+ul.thumbsgrid li a:hover span {
+	display:none !important;
+}
+.comicimages img {
+	width:100%;
+}
+pre {
+	padding:1.5em 0;
+}
+#side {
+	position:relative;
+	overflow:hidden;
+}
