@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+  <head>
+    <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <title>
+      Design 11: Inspiration behind the new look - website redesign of matthewjamestaylor.com
+    </title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="description" content="A summary of the new design and features of my redesigned website" />
+    <meta name="keywords" content="Design 11: Inspiration behind the new look - website redesign of matthewjamestaylor.com" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
+    <link rel="canonical" href="https://m15t3rl33.github.io/MarinaSp2018/" />
+    <link rel="alternate" type="application/rss+xml" title="Art and Design by Matthew James Taylor" href="http://feeds.feedburner.com/matthewjamestaylor?format=xml" /><!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" href="css/ie6.css" media="screen" />
+        <![endif]-->
+  </head>
+  <body id="blog">
+    <div id="wrap">
+      <div id="page">
+        <div id="header">
+          <ul id="nav">
+            <li class="blog">
+              <a href="/blog">Design Blog</a>
+            </li>
+            <li class="art">
+              <a href="/art">Art Gallery</a>
+            </li>
+            <li class="comics">
+              <a href="/comics">Comic Strips</a>
+            </li>
+          </ul>
+        </div>
+        <div id="main">
+          <h1>
+            Design 11: Inspiration behind the new look
+          </h1>
+          <p class="by">
+            by <a href="/about">Matthew James Taylor</a> on 17 April 2010
+          </p>
+          <div id="illustration">
+            <img src="img/illustrations/large/inspiration-behind-the-new-look.jpg" width="100%" alt="Design 11: Inspiration behind the new look - website redesign of matthewjamestaylor.com" />
+          </div>
+          <p>
+            It's been more than two years since the last major redesign of my website, but finally, design #11 is here! I'm very happy with the new look, but best of all, I can get back to writing articles now it's done. For those who are interested, my <a href="/website-history">website history</a> tells a story of the web design ideas I've experimented with over the last 12 years... Has it really been 12 years? :)
+          </p>
+          <p>
+            As with all website redesigns there are inspirations and techniques underpinning the design choices that were made, let's have a look at some of them for design 11.
+          </p>
+          <h2>
+            A simple 2 column liquid-layout
+          </h2>
+          <p>
+            A two column layout was a natural choice for this website. I don't have an excess of content per page so it's not necessary to have a large number of columns to organise everything. I chose a wide left column for my main content and a greyed-out right column for secondary content because this configuration makes my articles come first on the page visually and in the HTML source.
+          </p>
+          <p>
+            A liquid layout is always my favourite option for websites because they perform much better from a usability perspective. They also make the best use of available screen real estate. Liquid layouts do have their complications particularly when working with images but we can solve this with CSS, more on that later. The final design is a lot like my <a href="/blog/perfect-2-column-right-menu.htm">perfect right menu liquid-layout</a> only with a few minor alterations and additions.
+          </p>
+          <h2>
+            A friendly design focused on content
+          </h2>
+          <p>
+            I really wanted my main content to be the focus rather than the design of the page, so all style decisions were made in light of this goal. The overall page design was given minimal treatment in grey so it slipped into the background and provided a good base. I chose a large, black headline to catch attention for the main content and I illustrated each blog post with a watercolour painting. The colours really make them stand out above the pale grey background. I enjoyed painting all the illustrations even though it was a big job, I haven't added much work to my <a href="/art">art gallery</a> lately but all this painting has given me inspiration.
+          </p>
+          <p>
+            I put my main website logo in the top, right of the page so each article had more room to appear 'above the fold' on the left. The photo of me was taken by <a href="http://www.bigdoodles.com">Felicity</a> a little while ago and I just love the bright green background. I use this photo for my favicon and <a href="http://en.gravatar.com">gravatar</a> now too.
+          </p>
+          <h2>
+            Fluid images
+          </h2>
+          <p>
+            For a long time I've wrestled with images in my liquid-layouts. Up until now I've never been 100 per cent happy with how they've behaved when the page was at different resolutions. In my last design I had square thumbnail images for each blog post with a brief description to one side, these looked okay on large resolutions but when the page was narrow the column of text got ridiculously long.
+          </p>
+          <p>
+            The solution is actually very simple: use wide images with the text placed below. I can't believe it took me so long to figure that out. There is a trick of course, and that is this, the images must also scale along with the rest of the page layout.
+          </p>
+          <p>
+            Scaling images to fit a design in all browsers is a bit tricky but this <a href="http://unstoppablerobotninja.com/entry/fluid-images/">fluid images article</a> by the <a href="http://unstoppablerobotninja.com">Unstoppable Robot Ninja</a> helped me enormously.
+          </p>
+          <h2>
+            iPhone / iPod Touch compatible design
+          </h2><img class="imgr" src="blog/design-11-on-the-iphone.jpg" width="320" height="480" alt="Design 11 on the iPhone" />
+          <p>
+            Mobile internet browsing is becoming more popular than ever, particularly for iPhone users, so it makes sense to have a mobile-friendly design. I have paid particular attention to this while developing design 11. I constantly test on my iPhone. Having a fluid-width layout helps a lot but I've also made sure that things are optimised for the 980 pixel width that the Safari browser defaults to. For example on my <a href="/art/graeme-frontbum-watching-tv">art pages</a> I've made sure that two columns of related art thumbnails are visible on the right. In addition to this my art and blog post thumbnails are all big rectangular links that are very easy to tap even with fat fingers!
+          </p><br />
+          <p>
+            So that's a brief overview of the main features of this new design. I hope you like it. I will continue to make minor improvements over the next few weeks. If you notice anything out of place <a href="/about">let me know</a> so I can fix it... Happy web designing folks!
+          </p>
+          <div class="columns">
+            <div class="left">
+              <h2>
+                Tagged:
+              </h2>
+              <ul class="tags">
+                <li>
+                  <a href="/blog/-iphone" rel="tag">Apple iPhone</a>
+                </li>
+                <li>
+                  <a href="/blog/-web-design" rel="tag">Web design</a>
+                </li>
+                <li>
+                  <a href="/blog/-website-layouts" rel="tag">Website layouts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="right">
+              <h2>
+                Enjoy this article?
+              </h2>
+              <p>
+                If you find my website useful, feel free to donate any amount you wish. It will help pay for my hosting! =)
+              </p>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donation" name="donation">
+                <div class="button">
+                  <fieldset>
+                    <input type="hidden" name="cmd" value="_s-xclick" /> <input type="hidden" name="hosted_button_id" value="5516509" /> <input type="image" src="img/interface/social-media.jpg" name="submit" alt="PayPal - The safer, easier way to pay online." />
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div><a href="/" title="Art and Design by Matthew James Taylor"><img id="mjt" src="img/interface/matthew-james-taylor.jpg" width="420" height="240" alt="Matthew James Taylor" name="mjt" /></a>
+        <div id="side">
+          <form method="post" action="" id="search" name="search">
+            <fieldset>
+              <label for="q">Search this website:</label> <input type="text" name="q" maxlength="40" id="q" /> <input type="submit" value="Search" id="go" />
+            </fieldset>
+          </form>
+          <h2>
+            Related articles
+          </h2>
+          <ul class="articles">
+            <li>
+              <a href="/blog/centered-dropdown-menus"><span><img src="img/illustrations/thumb/centered-dropdown-menus.jpg" alt="Horizontally Centered Drop-Down Menus with Pure CSS" /> <strong>Horizontally Centered Drop-Down Menus</strong> <em>A detailed article explaining how to add drop-down submenus to my centered menus</em></span></a>
+            </li>
+            <li>
+              <a href="/blog/exploring-web-typography-css-hover-layout"><span><img src="img/illustrations/thumb/exploring-web-typography-css-hover-layout.jpg" alt="Exploring Web Typography: Experimental CSS Hover Layout" /> <strong>Exploring web typography: An experimental CSS hover layout</strong> <em>An experimental website layout using the CSS hover pseudo-class and plain XHTML</em></span></a>
+            </li>
+            <li>
+              <a href="/blog/drupal-themes-of-my-ultimate-liquid-layouts"><span><img src="img/illustrations/thumb/drupal-themes-of-my-ultimate-liquid-layouts.jpg" alt="Drupal Themes of my Ultimate Liquid Layouts" /> <strong>Ultimate Liquid Layout Drupal Themes</strong> <em>Thanks to Gaus Surahman my ultimate liquid layouts are now available for download as themes for the Drupal CMS</em></span></a>
+            </li>
+            <li>
+              <a href="/blog/link-source-ordering-seo"><span><img src="img/illustrations/thumb/link-source-ordering-seo.jpg" alt="Link Source Ordering: Focus link popularity onto key pages with SEO" /> <strong>Link Source Ordering</strong> <em>Master link source ordering and you will be able to redirect link popularity to key pages in your website</em></span></a>
+            </li>
+            <li>
+              <a href="/blog/equal-height-columns-cross-browser-css-no-hacks"><span><img src="img/illustrations/thumb/equal-height-columns-cross-browser-css-no-hacks.jpg" alt="Equal Height Columns with Cross-Browser CSS and No Hacks" /> <strong>Equal Height Columns with Cross-Browser CSS</strong> <em>A step by step tutorial explaining how to create multicolumn layouts with divs and CSS where every column is the same height</em></span></a>
+            </li>
+            <li>
+              <a href="/blog/holy-grail-liquid-layout-no-quirks-mode"><span><img src="img/illustrations/thumb/holy-grail-liquid-layout-no-quirks-mode.jpg" alt="The Holy Grail Liquid-Layout, No Quirks Mode" /> <strong>The Holy Grail Liquid-Layout, No Quirks Mode</strong> <em>A new version of my 3 column liquid layout that does not use quirks mode or IE conditional comments</em></span></a>
+            </li>
+            <li>
+              <a href="/blog/split-page-3-column-css-liquid-layout"><span><img src="img/illustrations/thumb/split-page-3-column-css-liquid-layout.jpg" alt="'Split Page' 3 column CSS liquid-layout" /> <strong>'Split Page' 3 column CSS liquid-layout</strong> <em>An unusual web page design that is the inverse of the Holy Grail liquid-layout.</em></span></a>
+            </li>
+            <li>
+              <a href="/blog/adobe-dreamweaver-css-rendering-bug"><span><img src="img/illustrations/thumb/adobe-dreamweaver-css-rendering-bug.jpg" alt="Adobe Dreamweaver CSS rendering bug" /> <strong>Adobe Dreamweaver CSS rendering bug</strong> <em>A courtesy warning for web designers using Dreamweaver with my liquid layouts</em></span></a>
+            </li>
+          </ul>
+        </div>
+        <div id="footer">
+          <form action="http://feedburner.google.com/fb/a/mailverify" method="post" onsubmit="this.target='popupwindow';window.open('http://feedburner.google.com/fb/a/mailverify?uri=matthewjamestaylor', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+            <fieldset>
+              <input type="hidden" value="matthewjamestaylor" name="uri" /> <input type="hidden" name="loc" value="en_US" />
+              <p>
+                <label for="email">Email updates:</label> <input type="text" name="email" id="email" /> <input type="submit" value="Subscribe" />
+              </p>
+            </fieldset>
+          </form>
+          <p>
+            © Copyright 1993 - 2010 <a href="/about">Matthew James Taylor</a> unless otherwise noted.
+          </p>
+        </div>
+      </div>
+    </div><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script> <script type="text/javascript">
+//<![CDATA[
+    _uacct = "UA-1848067-8";
+    urchinTracker();
+    //]]>
+    </script>
+  </body>
+</html>
