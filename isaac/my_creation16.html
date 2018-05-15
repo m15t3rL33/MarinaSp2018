@@ -1,0 +1,124 @@
+<!--Isaac Calderon 20 April 2018-->
+<html>
+    <head>
+    
+        <title>my creation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+            <style>
+                body{
+            background-image: url("http://wallpapers.ae/wp-content/uploads/2014/09/Wonderful-Rain-Background-Wallpaper.jpeg");
+            }   
+            
+                h1{
+            text-align:center;            
+            }
+        
+                p{
+            color:#D5F5E3;
+            }
+          
+                img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            }    
+             
+            #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border : none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}               
+                
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: black;
+    overflow: hidden;
+}                
+            </style>    
+        <body>
+            
+            <h1> </h1>
+
+
+            <button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Another creation Im doing is about drawing. The drawing skills that you may want, is able to be achieve. You just have to practice a lot of times of drawing and failing. Theres no need to be afraid of failing because you learn from it. Each time you fail, each time you succeed because next time you know what to do and you will be able to succeed at that specific spot. The thing is that people are afraid to fail in front of people they know and the thing that goes threw their head is oh I fail at this I suck. That is a fixed mindset, which means that they have set their mind one thing which is at failing. While if you had your mind in a growth mindset you can think positive and like oh I suck at this right now but I will be able to get better at this. The drawings that you do without technology or copy from something else, you are be creative. You access the part of your brain that makes want to continue drawing and continue being creative. You also wont have to put yourself down because it is your drawing that you want to draw and it wont be wrong. Drawing is a skill and pastime that can definitely increase your range of expressive possibilities, and increase your creative potential. Like the other things you can do to be creative are building stuff with legos, toothpicks, etc. If you dont copy anything and just use your brain to create something that you desire is very good. It is important to access your creative part of yourself because there are some jobs that can require creativity. For instance, if you are trying to fixed a natural problem that no one else is able to solve and you have to use your head to build something that can solve that natural problem. You can basically activate your creative part of your brain in order to solve that natural problem. The most important thing of drawing is that there are further experiences you can get for drawing. There are other things that you can get from drawing because there jobs you can get.</p>
+</div>
+
+            
+            <button>
+    <a href="externalfile:drive-   bcdd1cc0064bc543c4a6e995ca8bb2467321c1b3/root/program   ming_html_css_javascript/home_page.html#contact">In case you want to go straight home</a>            
+           </button>        
+        
+        
+                   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+    
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+        
+    </body>
+</html>

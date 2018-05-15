@@ -1,0 +1,109 @@
+<!--Isaac Calderon 20 April 2018-->
+<html>
+  <head>
+            <title>song webpage</title>
+        <style>
+            body{
+        background-image: url("http://wallpapers.ae/wp-content/uploads/2014/09/Wonderful-Rain-Background-Wallpaper.jpeg");    
+        }
+            li {
+        color:#D5F5E3;
+    
+        }    
+        
+            h1{
+        text-align:center;
+        
+        }
+            p{
+        color:#D5F5E3;
+        }
+        
+            img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;                   
+            }
+            
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border : none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}               
+    </style>
+  </head>
+        <body>
+
+            <h1>Favorite Bands</h1>
+
+        <ol>
+            <li>B Mike</li> 
+            <li>Skillets</li> 
+            <li>Eminem</li>     
+            <li>Gnash</li> 
+            <li>XXX Tentacion</li>    
+            <li>Three Days Grace</li>
+        </ol>   
+            
+            <h1>Favorite Songs from B Mike</h1>
+            <img src="https://i.ytimg.com/vi/324mfhORpTM/hqdefault.jpg">
+         <ul>
+           <li>F U 2</li>
+           <li>Away</li>
+           <li>Dear dad</li>
+           <li>2 Faces</li> 
+           <li>Anxiety</li> 
+           <li>Wish i never found you</li> 
+           <li>Deamons inside my head</li>
+           <li>You were never there</li>
+           <li>Therapy</li>
+        </ul>  
+
+            <p><font size="6">The reason why B Mike is my favorite band is because it represents me. It lifts me up everyday in the morning. The top two I like is Demons inside my head. Then it is F U 2. The songs are depressing in some people's point of view but in my case I think it is not depressing at all. It is up lifting in some ways and people have different ways to cheer them up and this is my way but if you think that this won't cheer you up then don't listen to them.  
+                :)</font></p>
+            <button>
+                <a href="externalfile:drive-419bb8deecfb9d3de5be2a7053dd64bfa23510bf/root/programming_html_css_javascript/index.html">In case you want to go straight home</a>      
+            </button>
+            <button>
+            <a href="externalfile:drive-419bb8deecfb9d3de5be2a7053dd64bfa23510bf/root/programming_html_css_javascript/index3.html">link to my favorite movie</a>
+            </button>
+            
+                   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+        
+    </body>
+
+    
+</html>

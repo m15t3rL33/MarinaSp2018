@@ -1,0 +1,109 @@
+<!--Isaac Calderon 20 April 2018-->
+<html>
+    <head>
+    
+        <title>my creation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+            <style>
+                body{
+            background-image: url("http://wallpapers.ae/wp-content/uploads/2014/09/Wonderful-Rain-Background-Wallpaper.jpeg");
+            }   
+            
+                h1{
+            text-align:center;            
+            color:#D5F5E3;
+            }
+        
+                p{
+            color:#D5F5E3;
+            }
+          
+                img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            }    
+             
+            #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border : none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}               
+                .mySlides {display:none;}
+
+            </style>    
+        <body>
+            
+            <h1> </h1>
+
+            <p><font size="6">There are many types of fears that people could have. They can really affect your life. Not everyone has one but there are some on the world that has some specific fear of something. There is one that is the most common one which is Social phobias. Social phobias are the most common type of fear. According to the internet they are considered an anxiety disorder and include excessive self-consciousness in social situations. Another one is Agoraphobia which is fear of open spaces. It is a serious anxiety disorder than can trap people in their homes or make leading a normal life next to impossible. Which this one can really affect their lives. There are more in the world like Acrophobia,Pteromerhanophobia,Claustrophobia,Entomophobia,Entomophobia which goes on and on. It would really torture a lot of people because they may have to stay in their home or stay away from tight small places etc. Simple phobias are a fear of something specific. These might include things like dentists or dogs. This kind tends to develop in childhood and will often go away over time. Then there are two deep types of phobias "complex phobias" and agoraphobia. Complex phobias tend to start during the teen years or early adulthood. The first is social phobia. It's a fear of being judged or embarrassed. The agoraphobia which is a fear of places that make you feel trapped. All I know is phobias can develop from a scary or stressful experience. They can even come from something you just witnessed or heard about.</font></p>
+
+            <h1>Image flip<h1>
+           
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://i.pinimg.com/736x/eb/b6/b3/ebb6b34ef1bb5be286b5b31239ec7e66--soul-heart.jpg" style="width:100%">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWCONRh0ULXvGEm-pjny97TO3HZziJvlK5vey-W3V2wmnQvH9w" style="width:100%">
+  <img class="mySlides" src="https://media.giphy.com/media/tWyj0VudrGTyE/giphy.gif" style="width:100%">
+</div>
+            
+            <button>
+    <a href="externalfile:drive-   bcdd1cc0064bc543c4a6e995ca8bb2467321c1b3/root/program   ming_html_css_javascript/home_page.html#contact">In   case you want to go straight home</a>            
+           </button>        
+        
+
+            
+            
+                   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+    
+   var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+        
+    </body>
+</html>

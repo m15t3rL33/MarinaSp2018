@@ -1,0 +1,120 @@
+<!--Isaac Calderon 20 April 2018-->
+<html>
+    <head>
+    
+        <title>my creation</title>
+    
+    </head>
+            <style>
+                body{
+            background-image: url("http://wallpapers.ae/wp-content/uploads/2014/09/Wonderful-Rain-Background-Wallpaper.jpeg");
+            }   
+            
+                h1{
+            text-align:center;            
+            }
+        
+                p{
+            color:#D5F5E3;
+            }
+          
+                img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:50%;
+            height:50%;
+            }    
+             
+            #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border : none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}        
+         #myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+            </style>    
+        <body>
+            
+            <h1> </h1>
+
+            <p><font size="6">If I got a billion dollars I would first please myself. Like i would get what i want at first. Then i would donate at least a small loan of 3,000 dollars to my after school. After that it would seem that I would donate to marina middle school but i wont whats the point of donating money if i wont be here because im leaving after this year and wont be able to see what they are going to do with that money. The things I want is not that im selfish its because I need to help out my family right now because it wont be good if i only help other people but not me or my family. The thing is if any of my other family members asked for money I would want them to screw off. The things that i want for my family is to get into a house instead of a apartment. Then I would want to first get everything we need incase of an emergency like a new and better phone, plus what I need a better tv and a better computer and clothes. I would have more a successful life then I have now. The thing is people say money can make you happy but I think it only makes me happy when i put a smile on someones face because they either got what they wanted and they are helped by me. That would be the best thing instead of having money. The thing is that on my moms family side is possibly going to hear that i have money and then they would be coming to me asking for money. I would be very pissed at them for coming to for only money and never came to me for anything else. If my mom came to me for money i would be cutting her off from my family. That is the down fall for having money because strangers or people you dont even know will either come to us for money or pretend they are trying to care for me but it would be hard to tell. The thing I wont do is get lazy and let people do stuff for me. I would not get a maid or a servant to do stuff for me because when i grow up I would not be used to things that other adults would be able to do. I would never be lazy nor fail from having money and be desperate for money. I think that money could do so many things for you but it can not get your actual love nor actual friends. My life will not go down to trash if I ever got a lot of money in my life.
+</font></p>
+
+            <img src="https://assets.entrepreneur.com/content/3x2/1300/1400698522-correct-answers-to-how-will-you-use-my-money.jpg">
+            
+            <p>
+<button onclick="myMove()">Click Me</button> 
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+            
+            <button>
+    <a href="externalfile:drive-bcdd1cc0064bc543c4a6e995ca8bb2467321c1b3/root/program   ming_html_css_javascript/home_page.html#contact">In case you want to go straight home</a>            
+           </button>        
+        
+        
+                   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+    
+    function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+        
+    </body>
+</html>
